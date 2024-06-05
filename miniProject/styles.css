@@ -1,0 +1,154 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    color: #343a40;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #007bff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #6c757d;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+    font-weight: bold;
+    color: #343a40;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#xssOutput, #sqlOutput {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    color: #343a40;
+    font-size: 16px;
+    text-align: left;
+}
+/* 이전 CSS 코드는 그대로 유지 */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    color: #28a745;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #007bff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid #007bff;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+a:hover {
+    border-bottom: 2px solid #28a745;
+}
+
+/* 추가적인 스타일 */
+a {
+    display: block;
+    margin-top: 15px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}

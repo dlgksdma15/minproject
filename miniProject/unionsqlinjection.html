@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Demo: Union SQL Injection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Security Demo: Union SQL Injection</h1>
+        
+        <section>
+            <h2>Union SQL Injection</h2>
+            <p>Union SQL Injection은 데이터베이스 쿼리에 Union을 이용하여 추가적인 정보를 추출하는 취약점입니다. 
+                공격자는 이를 통해 데이터베이스에서 민감한 정보를 탈취할 수 있습니다.</p>
+            <form id="unionSqlForm">
+                <label for="unionSqlInput">SQL Query:</label>
+                <input type="text" id="unionSqlInput" placeholder="Enter SQL query">
+                <button type="button" onclick="simulateUnionSQLInjection()">Execute</button>
+            </form>
+            <div id="unionSqlOutput"></div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
