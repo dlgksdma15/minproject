@@ -30,7 +30,7 @@ function simulateUnionSQLInjection() {
     const outputDiv = document.getElementById('unionSqlOutput');
 
     // Union SQL Injection 구문 검증
-    if (userInput.toLowerCase().includes("union select all 1,2,3,4,5#")) {
+    if (userInput.toLowerCase().includes("'union select all 1,2,3,4,5#")) {
         // 공격 시뮬레이션: 5개의 컬럼으로 설정된 쿼리
         const fakeQuery = `
             <table border="1">
